@@ -3,8 +3,9 @@ def square_array(array)
   new = []
   counter = 0 
   while array[counter] do
-    b = (array[counter] ** 2)
+    b = (Integer(array[counter])**2)
     counter+=1
+    new.push(b)
   end
   puts new
 end
